@@ -152,11 +152,11 @@ body {
   content: '';
   margin-left: 37px;
   position: absolute;
-  bottom: 80px;
+  bottom: 130px;
   display: block;
   width: 118px;
   border-bottom: 3px solid #566473;
-  opacity: 0;
+  /* opacity: 0; */
   transition: all 0.2s ease-in;
 }
 .kub-btn:hover .line::before {
