@@ -204,7 +204,7 @@ body {
 .span-text {
   position: absolute;
   top: 70%;
-  left: 35%;
+  left: -50%;
   transform: translate(-50%, -50%);
   font-size: 35px;
   width: 250px;
@@ -214,8 +214,11 @@ body {
   z-index: 1;
   text-align: center;
   color: #16a085;
+  transition: all 0.2s ease;
 }
-
+.ota:hover .span-text {
+  margin-left: 180px;
+}
 .fs{
   position: absolute;
   top: 60%;
